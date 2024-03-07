@@ -1,0 +1,90 @@
+@font-face {
+    font-family: greatvibes;
+    src: url(../fonts/GreatVibes-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: danse;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+  }
+
+p{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: danse;
+}
+div{
+    margin: 70% 0 0 0;
+}
+a{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  text-decoration: none;
+  
+}
+
+.flower-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #ff69b4;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  margin-left: 37%;
+}
+
+.flower-button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.flower-button:hover:before {
+  transform: scale(2);
+}
+
+.flower-button span {
+  position: relative;
+  z-index: 1;
+}
+
+.flower {
+  width: 30px;
+  height: 30px;
+  background-color: #ffff00;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  animation: bloom 3s ease-in-out infinite;
+}
+
+@keyframes bloom {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+

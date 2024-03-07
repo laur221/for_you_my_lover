@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+
+}
+p{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin: 240px 0 10px 0;
+}
+button{
+    display: inline-block;
+    margin: 10px 10px 0 100px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f6f6f6;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+}

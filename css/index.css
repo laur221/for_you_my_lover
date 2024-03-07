@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+pre{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 10%;
+}
+button{
+    position: relative;
+    left: 10em;
+    top: 1em;
+    padding: .5em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: pink;
+    color: black;
+}
